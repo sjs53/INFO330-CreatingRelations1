@@ -11,6 +11,7 @@ CREATE TABLE rooms (number INT, buildingid INT, seating INT, FOREIGN KEY (buildi
 -- INSERT INTO buildings (name, shortname) VALUES ('Mary Gates Hall', 'MGH');
 
 	--Adding Rooms
--- INSERT INTO rooms (number, buildingid, seating) VALUES (400, (SELECT id FROM buildings WHERE name = 'Mary Gates
-Hall'), 40);
---INSERT INTO rooms (number, buildingid, seating) VALUES (230, (SELECT id FROM buildings WHERE name = 'Odegaard Library'), 6);
+--INSERT INTO rooms(number, buildingid, seating) VALUES (400, (SELECT id FROM buildings WHERE name = 
+--'Mary Gates Hall'), 40);
+--INSERT INTO rooms (number, buildingid, seating) VALUES (230, (SELECT id FROM buildings WHERE name = 
+--'Odegaard Library'), 6);
